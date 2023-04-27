@@ -100,3 +100,39 @@
         transform: rotate(0deg);
     }
 }
+
+.ex-12-button:hover .ex-12-top-white{
+    animation: anim-1 2s linear;
+}
+
+@keyframes anim-1 {
+    0%{
+        left: 10%;
+    }
+
+    50%{
+        left: 69%;
+    }
+
+    100%{
+        left: 10%;
+    }
+}
+
+.ex-12-button:hover .ex-12-bottom-white{
+    animation: anim-2 2s linear;
+}
+
+@keyframes anim-2 {
+    0%{
+        right: 20%;
+    }
+
+    50%{
+        right: 69%;
+    }
+
+    100%{
+        right: 20%;
+    }
+}
