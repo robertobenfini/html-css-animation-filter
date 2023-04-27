@@ -2,3 +2,8 @@
     transition: background-color 2s;
     background-color: red;
 }
+
+.ex-2-square:active{
+    transition: width 2s;
+    width: 100%;
+}
