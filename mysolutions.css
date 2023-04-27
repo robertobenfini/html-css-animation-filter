@@ -68,3 +68,17 @@
     filter: sepia(0.6);
     transform: scale(1.5);
 }
+
+.ex-10-icon{
+    animation: rotazione 1s linear infinite;
+}
+
+@keyframes rotazione {
+    0%{
+        transform: rotate(0deg);
+    }
+
+    100%{
+        transform: rotate(360deg);
+    }
+}
